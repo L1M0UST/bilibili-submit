@@ -1,0 +1,9 @@
+# 运行时数据：数据库、凭据、日志
+data/
+reference/
+.venv/
+__pycache__/
+*.pyc
+config.json
+*.cookie
+credentials*.json

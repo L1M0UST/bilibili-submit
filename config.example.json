@@ -1,0 +1,29 @@
+{
+  "account": {
+    "account_id": "main",
+    "expected_uid": null
+  },
+  "defaults": {
+    "tid": 21,
+    "tags": "",
+    "copyright": 1,
+    "no_reprint": 0,
+    "line": "auto"
+  },
+  "upload": {
+    "max_retries": 5,
+    "backoff_base_sec": 30,
+    "backoff_max_sec": 3600,
+    "session_restarts": 2
+  },
+  "schedule": {
+    "timezone": "Asia/Shanghai",
+    "loop_interval_sec": 30,
+    "reconcile_interval_sec": 600,
+    "pending_confirm_timeout_hours": 24
+  },
+  "network": {
+    "proxy": null,
+    "timeout_sec": 30
+  }
+}
